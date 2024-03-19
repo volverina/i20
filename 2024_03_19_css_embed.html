@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<!--<link rel="stylesheet" href="2024_03_19_css.css">-->
+		<style>
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: top;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+		
+		</style>
+	</head>
+	<body>
+		<h1 style="color: red; font-weight: bold; margin-left: 10%; font-size: 36px;">Заголовок 1 рівня</h1>
+		<h2 style="color: blue;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: cursive;">Заголовок 2 рівня</h2>
+		<p style="font-style: italic;">Абзац 1</p>
+		<p style="color: green;">Абзац 2</p>
+		<p>Абзац 3</p>
+		<table>
+		  <caption>
+		    Front-end web developer course 2021
+		  </caption>
+		  <thead>
+		    <tr>
+		      <th scope="col">Person</th>
+		      <th scope="col">Most interest in</th>
+		      <th scope="col">Age</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">Chris</th>
+		      <td>HTML tables</td>
+		      <td>22</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">Dennis</th>
+		      <td>Web accessibility</td>
+		      <td>45</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">Sarah</th>
+		      <td>JavaScript frameworks</td>
+		      <td>29</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">Karen</th>
+		      <td>Web performance</td>
+		      <td>36</td>
+		    </tr>
+		  </tbody>
+		  <tfoot>
+		    <tr>
+		      <th scope="row" colspan="2">Average age</th>
+		      <td>33</td>
+		    </tr>
+		  </tfoot>
+		</table>
+		<img src="favicon.ico" alt="Тут була іконка" style="width: 30px; float: right;">
+		<video controls width="500">
+			<source src="Pickard_Vacation.mp4" type="video/mp4" />
+		</video>
+
+	</body>
+</html>
+
