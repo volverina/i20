@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+	<head>
+		<script data-consolejs-channel="32d18e29-cfc1-342a-f75b-523ba3fda101" src="https://remotejs.com/agent/agent.js"></script>
+		<script>
+			async const hello = () => {
+				const str = "Вітаннячко"; // const, var/let
+				console.log(123+str+"!");
+				
+				for(let i=0;i<5;i++) // while
+					document.write(str+"?<br>");
+					
+				if(2+2 == "4")
+					console.log("2+2=4");
+					
+			}
+			
+			await hello();
+			
+			const res = document.getElementById("p123");
+			console.log(res);
+			
+		</script>
+	</head>
+	<body>
+		<p id="p123">Рядочок</p>
+	</body>
+</html>
+
